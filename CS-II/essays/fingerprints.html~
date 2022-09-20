@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title> Lucas Pham - Fingerprints</title>
+    <link rel="stylesheet" href="../style.css">
+  </head>
+  <body>
+    <a href="https://codermerlin.com/users/lucas-pham/Digital%20Portfolio/index.html">Home</a>
+    <br>
+    <br> <br> <br> <br>
+    <p>Lucas Pham</p>
+    <p>STEAM Center, Allen ISD</p>
+    <p>CS-II</p>
+    <p>Mr. Ben-Yaakov</p>
+    <p>September 1, 2022</p>
+    <h1>Fingerprints</h1>
+    <br>
+    <p>   Fingerprints in HTTPS allow us to create a secure connection between the user and the server on websites and also authenticate users on sites. This is achieved by using a hash. A hash is a specific set of numbers which represent a cerain set of data. The fingerprint of the website is esentially a kay that gives access to the data in the hash. This key is specific so that if just one part of the key is different, as much as half the data in the hash will be altered. This means that even though our data can be intercepted, the data will be excrypted so it cant be read by anyone, except for the server and the user. Despite this protection, intitutions have found a way to curcumvent this to recieve and read the data. These institutions use a HTTPS proxy appliance. This is used to get around the specific hashing the server uses to encrypt the data between it and the server. This acts as a kind of man-in-the-middle connection (MITM). This type of connection which is intercepted by someone before it gets to the reciever. This risk make it possible so that the man in the middle can see the data being sent from both sides, which could be anything from messages to impportants data like creditcard numbers and legal documents. This is often done using CA (certificate authority). The CA's role is to provide a website a certificate that says they are who they say they are. The intitution uses a fake certificate made by themselves to intercept and decrypt the hash before it gets to the real server. This type of interception is impossible to prevent, because it is built into the computer the insitutions. But even though you cant prevent this, i can be detected. Because the keys for the websites are matched in pairs, one to encrypt and one to decrypt, the fake key will be different from the real key, so just comparing the public key and comparing it with the true key of the site will tell you if the connection is being intercepted. This method is not 100% correct though. Sites that have a lot of traffic, such as amazon and google, have several servers, which means several keys as well. The means that we might see a different public key that still might be valid, due to being connected to a com-pletely different server. 
+    <p>   Schools should be able to eavesdrop on their own computers because theyre school property, although they shouldn't be able to do this on o
+      ur personal computers. The government and our ISPs should not be able to see our internet traffic because there is no good reason for them to see our internet information and data.</p>
+    <br><br>
+    </body>
